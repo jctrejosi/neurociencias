@@ -3,9 +3,10 @@
 ## 1) Ley básica — forma óhmica para canales
 
 **Ecuación (forma compacta):**
-$$
+
+```math
 I_x = g_x \, (V_m - E_x)
-$$
+```
 
 ------
 
@@ -34,14 +35,13 @@ $$
 
 ```math
 \text{mS/cm}^2 \times \text{mV} = \mu\text{A/cm}^2
-
+\\
 \because\quad 
 1\ \text{mS} = 10^{-3}\ \text{S}, \quad 
 1\ \text{mV} = 10^{-3}\ \text{V}
-
+\\
 \Rightarrow\quad 
 (10^{-3})(10^{-3}) = 10^{-6}\ \text{A} = 1\ \mu\text{A}
-\]
 
 ```
 
@@ -62,7 +62,7 @@ I_K = g_K \,(V_m - E_K)
       = 36 \cdot (-70 - (-95)) 
       = 36 \cdot 25 
       = 900 \,\mu\text{A/cm}^2
-      \\
+\\
 I_K > 0 \quad \Longrightarrow \quad 
 \text{corriente neta saliente de } K^+ 
 \; (\text{el potasio sale del interior})
