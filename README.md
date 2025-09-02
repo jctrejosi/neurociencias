@@ -41,7 +41,25 @@
 
 
 
+Conceptos:
+
+Si por algúin mecanismo V_m = E_ka el flujo de iones del interior al exterior se detiene
+
+Ix = gx (Vm - Ex)        x = {K+, Na+, Cl-, Ca}
+
+
+
+g_x = Conductancia => [mS/cm²]
+
+R_x = Resistencia = 1/g_x [Ohms]
+
+V_m = potencial de membrana
+
 R = Cte universal de gases 8.314
+
+Rl = Resistencia asociada a los canales de pérdida
+
+El = Potencial de reversamiento de los iones de pérdida.
 
 T = Temperatura K
 
@@ -49,7 +67,7 @@ F = Constante de Faraday 96485.332 C/mal
 
 Z = # Atómico
 
-E_ka = Potencial de Nerast = RT/ZF log_10 [Ka+]out/[Ka+]in
+E_ka || E_x = Potencial de Nerast (Potencial de reversamiento) = RT/ZF log_10 [Ka+]out/[Ka+]in
 
 Spike = Cuando alcnaza el potencial de acción
 
@@ -58,3 +76,7 @@ AP = Potencial de acción.
 V_rest = Potencial de reposo de una neurona (-60mV aprox.).
 
 V_th = Threshold umbral.
+
+
+
+Cómo podemos representar las corrientes asociadas a cada ion en iun modemo matemático de la membrana celular?
