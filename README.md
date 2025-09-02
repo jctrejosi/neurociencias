@@ -59,20 +59,28 @@ Supongamos valores tipo Hodgkin–Huxley:
 
 ```math
 g_K = 36 \,\text{mS/cm}^2
-\\
+
+```
+
+```math
 V_m = -70 \,\text{mV}
-\\
+```
+
+```math
 E_K = -95 \,\text{mV}
-\\
+```
+
+```math
 I_K = g_K \,(V_m - E_K) 
       = 36 \cdot (-70 - (-95)) 
       = 36 \cdot 25 
       = 900 \,\mu\text{A/cm}^2
-\\
+```
+
+```math
 I_K > 0 \quad \Longrightarrow \quad 
 \text{corriente neta saliente de } K^+ 
 \; (\text{el potasio sale del interior})
-
 ```
 
 ------
