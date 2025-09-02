@@ -34,16 +34,22 @@ I_x = g_x \, (V_m - E_x)
 ### Unidades y conversión rápida
 
 ```math
-\text{mS/cm}^2 \times \text{mV} = \mu\text{A/cm}^2
-\\\\
 \because\quad 
 1\ \text{mS} = 10^{-3}\ \text{S}, \quad 
 1\ \text{mV} = 10^{-3}\ \text{V}
-\\
+```
+
+```math
+\text{mS/cm}^2 \times \text{mV} = \mu\text{A/cm}^2
+```
+
+```math
 \Rightarrow\quad 
 (10^{-3})(10^{-3}) = 10^{-6}\ \text{A} = 1\ \mu\text{A}
 
 ```
+
+
 
 ------
 
