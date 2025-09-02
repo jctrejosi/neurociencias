@@ -53,7 +53,7 @@ Supongamos valores tipo Hodgkin–Huxley:
 
 ```math
 g_K = 36 \,\text{mS/cm}^2
-\\
+\\\\
 V_m = -70 \,\text{mV}
 \\
 E_K = -95 \,\text{mV}
