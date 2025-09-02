@@ -35,7 +35,7 @@ I_x = g_x \, (V_m - E_x)
 
 ```math
 \text{mS/cm}^2 \times \text{mV} = \mu\text{A/cm}^2
-\\
+\\\\
 \because\quad 
 1\ \text{mS} = 10^{-3}\ \text{S}, \quad 
 1\ \text{mV} = 10^{-3}\ \text{V}
@@ -53,7 +53,7 @@ Supongamos valores tipo Hodgkin–Huxley:
 
 ```math
 g_K = 36 \,\text{mS/cm}^2
-\\\\
+\\
 V_m = -70 \,\text{mV}
 \\
 E_K = -95 \,\text{mV}
