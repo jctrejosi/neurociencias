@@ -1,4 +1,4 @@
-# 🧠 Neurociencias Computacionales
+# Neurociencias Computacionales
 
 Este repositorio recopila una serie de **laboratorios prácticos** sobre el modelamiento computacional de neuronas.
 A través de distintos niveles de complejidad, se exploran modelos basados en **ecuaciones diferenciales ordinarias**,
@@ -10,7 +10,7 @@ de los mecanismos que gobiernan la excitabilidad neuronal.
 
 ---
 
-## 📚 Contenido
+## Contenido
 
 - [**Lab 1 — Método de Heun–Euler**](./Lab1%20-%20Método%20de%20Heun%20Euler%20para%20solucionar%20EC%20Diferenciales)
   Simulación del potencial de membrana mediante integración numérica con los métodos de Euler y Heun.
@@ -29,7 +29,7 @@ de los mecanismos que gobiernan la excitabilidad neuronal.
 
 ---
 
-## 🧩 Resumen de los Laboratorios
+## Resumen de los Laboratorios
 
 ---
 
@@ -110,7 +110,7 @@ Implementar y analizar un modelo neuronal simplificado con integración lineal, 
 
 ---
 
-## 👨‍🔬 Autor
+## Autor
 
 **Juan Carlos Trejos Iglesias**
 Proyecto de Modelos Neuronales — Neurociencias Computacionales
