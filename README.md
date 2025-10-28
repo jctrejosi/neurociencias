@@ -130,8 +130,6 @@ Caracterizar y comparar la actividad neuronal bajo diferentes niveles de estimul
 - Firing rate luz baja: **25.0 spikes/s**  
 - Firing rate luz alta: **32.3 spikes/s**  
 - Incremento: **+7.3 spikes/s (29.2 %)**
-
-La neurona presenta una **respuesta fotosensible significativa**, con mayor tasa de disparo ante luz intensa.
 ---
 
 ## Autor
