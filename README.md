@@ -12,7 +12,7 @@ de los mecanismos que gobiernan la excitabilidad neuronal.
 
 ## Contenido
 
-- [**Lab 1 — Método de Heun–Euler**](./Lab1%20-%20Método%20de%20Heun%20Euler%20para%20solucionar%20EC%20Diferenciales)
+- [**Lab 1 — Introducción - Método de Heun–Euler**](./Lab1%20-%20Método%20de%20Heun%20Euler%20para%20solucionar%20EC%20Diferenciales)
   Simulación del potencial de membrana mediante integración numérica con los métodos de Euler y Heun.
 
 - [**Lab 2 — Modelo de Hodgkin–Huxley (HH)**](./Lab2%20-%20Modelo%20Hodgkin-Huxley)
@@ -21,11 +21,14 @@ de los mecanismos que gobiernan la excitabilidad neuronal.
 - [**Lab 3 — Curvas F–I (Frecuencia–Corriente)**](./Lab3%20-%20Curva%20F-I%20con%20HH)
   Estudio de la relación entre corriente inyectada y frecuencia de disparo neuronal.
 
-- [**Lab 4 — FitzHugh–Nagumo (Reducción de Dimensionalidad)**](./Lab4%20-%20Reducción%20de%20dimensionalidad%20(Campos%20vectoriales))
+- [**Lab 4 — Reducción de Dimensionalidad - FitzHugh–Nagumo**](./Lab4%20-%20Reducción%20de%20dimensionalidad%20(Campos%20vectoriales))
   Análisis de nulclinas, puntos de equilibrio y plano de fase en una versión reducida del modelo HH.
 
 - [**Lab 5 — Modelo LIF (Leaky Integrate-and-Fire)**](./Lab5%20-%20Modelo%20LIF)
   Modelo simplificado basado en umbral, reinicio y corriente de entrada.
+
+- [**Lab 6 —  Análisis estadístico en trenes de spikes**](./Lab6%20-%20Modelo%20LIF)
+  Conteo de skipes por intérvalos de tiempo, clasificación del comportamiento de la neurona.
 
 ---
 
@@ -108,6 +111,27 @@ Implementar y analizar un modelo neuronal simplificado con integración lineal, 
 
 <span style="color:gray">$\text{si } V \geq V_{th} \Rightarrow V \leftarrow V_{reset}$</span>
 
+### 🔹 **Lab 6 — Análisis estadístico en trenes de spikes**
+
+**Objetivo:**
+Caracterizar y comparar la actividad neuronal bajo diferentes niveles de estimulación visual mediante el análisis estadístico de trenes de spikes.
+
+**Métricas principales:**  
+- **Tasa de disparo (Firing Rate):** comparación entre condiciones de luz baja y alta.  
+- **Intervalos entre spikes (ISI):** cálculo del coeficiente de variación \(CV = \frac{\sigma_{ISI}}{\mu_{ISI}}\).  
+- **Factor de Fano:** medida de variabilidad \(FF = \frac{\sigma_X^2}{\mu_X}\) con bins de 50 ms.
+
+**Interpretación:**  
+| Métrica | ≈ 0 | ≈ 1 | > 1 |
+|----------|------|------|------|
+| **CV / FF** | Disparo tónico | Proceso Poisson | Disparo en ráfagas |
+
+**Resultados clave:**  
+- Firing rate luz baja: **25.0 spikes/s**  
+- Firing rate luz alta: **32.3 spikes/s**  
+- Incremento: **+7.3 spikes/s (29.2 %)**
+
+La neurona presenta una **respuesta fotosensible significativa**, con mayor tasa de disparo ante luz intensa.
 ---
 
 ## Autor
